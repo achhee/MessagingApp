@@ -21,7 +21,7 @@ MessagingApp is a cross-platform messaging system built entirely on the .NET pla
 - SignalR hubs for real-time presence and call signaling.
 - Media service storing encrypted blobs in Azure Blob Storage or equivalent.
 - Notification service integrating with FCM/APNs/Windows Push.
-- EF Core with PostgreSQL for relational data.
+- EF Core with SQL Server LocalDB for relational data.
 
 ## End-to-End Encryption
 - Utilizes the Signal Protocol for key exchange, session management, and message encryption.
