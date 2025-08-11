@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlite("Data Source=auth.db"));
+    options.UseSqlServer(@"Server=(localdb)\\mssqllocaldb;Database=AuthDb;Trusted_Connection=True;"));
 builder.Services.AddScoped<PasswordHasher<User>>();
 builder.Services.AddControllers();
 

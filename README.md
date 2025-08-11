@@ -1,10 +1,12 @@
 # MessagingApp
 
-This repository contains the codebase for the MessagingApp platform.
+This repository contains the codebase for the MessagingApp platform. It features a
+complete API for message routing and metadata storage, keeping encrypted payloads
+opaque to the server.
 
 ## Backend Services
 
-The backend is composed of ASP.NET Core microservices. The initial `AuthService` exposes user registration and login endpoints backed by a SQLite database and can be found under `src/AuthService`.
+The backend is composed of ASP.NET Core microservices. The initial `AuthService` exposes user registration and login endpoints backed by a SQL Server LocalDB database and can be found under `src/AuthService`.
 
 ### Running the authentication service
 
