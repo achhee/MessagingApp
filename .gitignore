@@ -1,0 +1,14 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# Mac
+.DS_Store
+
+# User specific files
+*.user
+*.suo
+
